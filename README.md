@@ -22,9 +22,9 @@ var el = dom([
 				id: "list",
 				className: "my-list",
 				content: dom([
-						dom.create("li", {content: "Item 1"}), 
+						dom.create("li", {content: "Item 1", className:"first"}), 
 						dom.create("li", {content: "Item 2", attr:{"class":"selected"}}), 
-						dom.create("li", {content: "Item 3"})
+						dom.create("li", {content: "Item 3", id:"unique"})
 					])
 			})
 	]);
