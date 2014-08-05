@@ -39,8 +39,8 @@ document.body.appendChild(el);
 </div>
 <div style="font-weight: bold; font-size: 2em;">Second Element</div>
 <ul class="my-list" id="list">
-	<li>Item 1</li>
+	<li class="first">Item 1</li>
 	<li class="selected">Item 2</li>
-	<li>Item 3</li>
+	<li id="unique">Item 3</li>
 </ul>
 ```
