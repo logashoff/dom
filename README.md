@@ -1,4 +1,4 @@
-### Code: ###
+#### Code: ####
 
 ```javascript
 var el = dom([
@@ -32,7 +32,7 @@ var el = dom([
 document.body.appendChild(el);
 ```
 
-### Result: ###
+#### Result: ####
 ```html
 <div class="container">
 	<span id="label">Nested Content</span>
